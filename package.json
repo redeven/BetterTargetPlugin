@@ -1,0 +1,25 @@
+{
+  "name": "bettertargetplugin",
+  "version": "1.0.0",
+  "description": "Dalamud Plugin",
+  "main": "post-build.js",
+  "scripts": {
+    "postbuild": "node post-build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redeven/BetterTargetPlugin.git"
+  },
+  "keywords": [
+    "dalamud"
+  ],
+  "author": "Redeven",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/redeven/BetterTargetPlugin/issues"
+  },
+  "homepage": "https://github.com/redeven/BetterTargetPlugin#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.56"
+  }
+}

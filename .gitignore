@@ -1,4 +1,5 @@
 .vs/
 obj/
-bin/
 *.user
+node_modules
+package-lock.json

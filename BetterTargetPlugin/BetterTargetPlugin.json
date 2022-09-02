@@ -1,0 +1,11 @@
+{
+    "Author": "Redeven",
+    "Name": "BetterTarget",
+    "Punchline": "A better target command",
+    "Description": "/btarget : Allows targetting closest entity that matches any term of a space-delimited list.",
+    "InternalName": "betterTarget",
+    "ApplicableVersion": "any",
+    "Tags": [
+        "target"
+    ]
+}

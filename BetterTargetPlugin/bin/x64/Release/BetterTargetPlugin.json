@@ -1,0 +1,14 @@
+{
+  "Author": "Redeven",
+  "Name": "BetterTarget",
+  "InternalName": "BetterTargetPlugin",
+  "AssemblyVersion": "0.0.0.1",
+  "Description": "/btarget : Allows targetting closest entity that matches any term of a space-delimited list.",
+  "ApplicableVersion": "any",
+  "Tags": [
+    "target"
+  ],
+  "DalamudApiLevel": 7,
+  "LoadPriority": 0,
+  "Punchline": "A better target command"
+}
