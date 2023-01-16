@@ -1,1 +1,23 @@
-[{"Author":"Redeven","Name":"BetterTarget","InternalName":"BetterTargetPlugin","AssemblyVersion":"0.0.0.1","Description":"/btarget : Allows targetting closest entity that matches any term of a space-delimited list.","ApplicableVersion":"any","Tags":["target"],"DalamudApiLevel":7,"LoadPriority":0,"Punchline":"A better target command","LastUpdated":1662157790,"DownloadLinkInstall":"https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip","DownloadLinkTesting":"https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip","DownloadLinkUpdate":"https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip"}]
+[
+    {
+        "Author": "Redeven",
+        "Name": "BetterTarget",
+        "InternalName": "BetterTargetPlugin",
+        "AssemblyVersion": "1.0.0.0",
+        "Description": "/btarget : Allows targetting closest entity that matches any term of a space-delimited list.",
+        "ApplicableVersion": "any",
+        "Tags": [
+            "target"
+        ],
+        "DalamudApiLevel": 8,
+        "LoadRequiredState": 0,
+        "LoadSync": false,
+        "LoadPriority": 0,
+        "Punchline": "A better target command",
+        "AcceptsFeedback": true,
+        "LastUpdated": 1673865231,
+        "DownloadLinkInstall": "https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip",
+        "DownloadLinkTesting": "https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip",
+        "DownloadLinkUpdate": "https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip"
+    }
+]

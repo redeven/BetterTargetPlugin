@@ -11,5 +11,5 @@ if (existsSync(manifestPath)) {
     manifest.DownloadLinkTesting = downloadPath;
     manifest.DownloadLinkUpdate = downloadPath;
     const repository = [manifest];
-    writeFileSync('repository.json', JSON.stringify(repository), 'utf-8');
+    writeFileSync('repository.json', JSON.stringify(repository, null, 4), 'utf-8');
 }

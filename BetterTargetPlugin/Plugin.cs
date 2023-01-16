@@ -35,14 +35,14 @@ namespace BetterTargetPlugin
 
         private unsafe void OnCommand(string command, string args)
         {
-            GameObject closestMatch = null;
+            GameObject? closestMatch = null;
             var closestDistance = float.MaxValue;
             var player = Service.ClientState.LocalPlayer;
             var searchTerms = args.Split(" ");
             foreach (var actor in Service.Objects)
             {
                 if (actor == null) continue;
-                var valueFound = searchTerms.Any(searchName => actor.Name.TextValue.ToLowerInvariant().Contains(searchName));
+                var valueFound = searchTerms.Any(searchName => actor.Name.TextValue.ToLowerInvariant().Contains(searchName.ToLowerInvariant()));
                 if (valueFound && ((GameObjectStruct*)actor.Address)->GetIsTargetable())
                 {
                     var distance = Vector3.Distance(player.Position, actor.Position);
