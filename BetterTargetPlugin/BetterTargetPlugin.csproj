@@ -79,8 +79,4 @@
     <Exec Command="npm run postbuild" />
   </Target>
 
-  <Target Name="PostClean" AfterTargets="Clean">
-    <RemoveDir Directories="$(OUTDIR)" />
-  </Target>
-
 </Project>

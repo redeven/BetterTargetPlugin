@@ -1,6 +1,6 @@
 const { existsSync, readFileSync, writeFileSync } = require("fs");
 const path = require("path");
-const buildPath = path.join('.', 'BetterTargetPlugin', 'bin', 'x64', 'Release');
+const buildPath = path.join('.', 'BetterTargetPlugin', 'bin', 'x64', 'Release', 'BetterTargetPlugin');
 const manifestPath = path.join(buildPath, 'BetterTargetPlugin.json');
 const downloadPath = 'https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip';
 if (existsSync(manifestPath)) {
