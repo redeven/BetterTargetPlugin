@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <Authors>Redeven</Authors>
+    <Company></Company>
+    <Version>1.0.0.1</Version>
+    <Description>A better target command</Description>
+    <Copyright></Copyright>
+    <PackageProjectUrl>https://github.com/redeven/BetterTargetPlugin</PackageProjectUrl>
+  </PropertyGroup>
+    
+  <PropertyGroup>
     <TargetFramework>net7.0-windows</TargetFramework>
     <Platforms>x64</Platforms>
     <Nullable>enable</Nullable>
@@ -68,6 +77,10 @@
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
     <Exec Command="npm run postbuild" />
+  </Target>
+
+  <Target Name="PostClean" AfterTargets="Clean">
+    <RemoveDir Directories="$(OUTDIR)" />
   </Target>
 
 </Project>
