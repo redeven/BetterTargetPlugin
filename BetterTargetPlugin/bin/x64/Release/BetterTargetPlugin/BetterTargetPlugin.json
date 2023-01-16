@@ -5,6 +5,7 @@
   "AssemblyVersion": "1.0.0.0",
   "Description": "/btarget : Allows targetting closest entity that matches any term of a space-delimited list.",
   "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/redeven/BetterTargetPlugin",
   "Tags": [
     "target"
   ],
