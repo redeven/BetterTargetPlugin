@@ -5,6 +5,7 @@ using Dalamud.Game.ClientState.Objects.Types;
 using Dalamud.IoC;
 using Dalamud.Plugin;
 using GameObjectStruct = FFXIVClientStructs.FFXIV.Client.Game.Object.GameObject;
+using Dalamud.Plugin.Services;
 
 namespace BetterTargetPlugin
 {
@@ -13,11 +14,11 @@ namespace BetterTargetPlugin
         public string Name => "BetterTarget";
         private const string CommandName = "/btarget";
         private DalamudPluginInterface PluginInterface { get; init; }
-        private CommandManager CommandManager { get; init; }
+        private ICommandManager CommandManager { get; init; }
 
         public Plugin(
             [RequiredVersion("1.0")] DalamudPluginInterface pluginInterface,
-            [RequiredVersion("1.0")] CommandManager commandManager
+            [RequiredVersion("1.0")] ICommandManager commandManager
         ) {
             PluginInterface = pluginInterface;
             CommandManager = commandManager;
@@ -42,6 +43,7 @@ namespace BetterTargetPlugin
             foreach (var actor in Service.Objects)
             {
                 if (actor == null) continue;
+                if (player == null) continue;
                 var valueFound = searchTerms.Any(searchName => actor.Name.TextValue.ToLowerInvariant().Contains(searchName.ToLowerInvariant()));
                 if (valueFound && ((GameObjectStruct*)actor.Address)->GetIsTargetable())
                 {
@@ -62,7 +64,7 @@ namespace BetterTargetPlugin
 
             if (closestMatch != null)
             {
-                Service.Targets.SetTarget(closestMatch);
+                Service.Targets.Target = closestMatch;
             }
         }
     }

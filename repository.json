@@ -10,13 +10,14 @@
         "Tags": [
             "target"
         ],
-        "DalamudApiLevel": 8,
+        "DalamudApiLevel": 9,
         "LoadRequiredState": 0,
         "LoadSync": false,
+        "CanUnloadAsync": false,
         "LoadPriority": 0,
         "Punchline": "A better target command",
         "AcceptsFeedback": true,
-        "LastUpdated": 1673867368,
+        "LastUpdated": 1698240117,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip"
