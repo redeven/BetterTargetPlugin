@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Authors>Redeven</Authors>
     <Company></Company>
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
     <Description>A better target command</Description>
     <Copyright></Copyright>
     <PackageProjectUrl>https://github.com/redeven/BetterTargetPlugin</PackageProjectUrl>
@@ -22,6 +22,7 @@
 
   <PropertyGroup>
     <DalamudLibPath>$(appdata)\XIVLauncher\addon\Hooks\dev\</DalamudLibPath>
+    <RunPostBuildEvent>OnOutputUpdated</RunPostBuildEvent>
   </PropertyGroup>
   
    <PropertyGroup Condition="'$([System.Runtime.InteropServices.RuntimeInformation]::IsOSPlatform($([System.Runtime.InteropServices.OSPlatform]::Linux)))'">

@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "BetterTargetPlugin/1.0.0.1": {
+      "BetterTargetPlugin/1.0.0.2": {
         "dependencies": {
           "DalamudPackager": "2.1.12"
         },
@@ -18,7 +18,7 @@
     }
   },
   "libraries": {
-    "BetterTargetPlugin/1.0.0.1": {
+    "BetterTargetPlugin/1.0.0.2": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

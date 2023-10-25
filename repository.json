@@ -3,7 +3,7 @@
         "Author": "Redeven",
         "Name": "BetterTarget",
         "InternalName": "BetterTargetPlugin",
-        "AssemblyVersion": "1.0.0.1",
+        "AssemblyVersion": "1.0.0.2",
         "Description": "/btarget : Allows targetting closest entity that matches any term of a space-delimited list.",
         "ApplicableVersion": "any",
         "RepoUrl": "https://github.com/redeven/BetterTargetPlugin",
@@ -17,7 +17,7 @@
         "LoadPriority": 0,
         "Punchline": "A better target command",
         "AcceptsFeedback": true,
-        "LastUpdated": 1698240117,
+        "LastUpdated": 1698241474,
         "DownloadLinkInstall": "https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip",
         "DownloadLinkTesting": "https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip",
         "DownloadLinkUpdate": "https://raw.githubusercontent.com/redeven/BetterTargetPlugin/master/BetterTargetPlugin/bin/x64/Release/BetterTargetPlugin/latest.zip"
